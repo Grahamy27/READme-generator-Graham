@@ -27,7 +27,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "learned",
+        name: "learnt",
         message: "What did you learn?",
     },
     {

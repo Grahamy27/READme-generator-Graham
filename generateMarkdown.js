@@ -1,8 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-const generateMarkdownFunction = ({ title, motivation, buildReason, problemSolved, learned, installation, usage, credits, license }) => {
+const generateMarkdownFunction = ({ title, motivation, buildReason, problemSolved, learnt, installation, usage, credits, license }) => {
   const sections = ['Description', 'Installation', 'Usage', 'Credits', 'License'];
   const tableOfContents = sections.map(section => `* [${section}](#${section.toLowerCase()})`).join('\n');
-  const aggregatedDescription = `${motivation}\n\n${buildReason}\n\n${problemSolved}\n\n${learned}`;
+  const aggregatedDescription = `${motivation}\n\n${buildReason}\n\n${problemSolved}\n\n${learnt}`;
   const licenseBadge = renderLicenseBadge(license);
   // const licenseSection = renderLicenseSection(license);
   // console.log('Generated License Badge:', licenseBadge);
@@ -62,7 +62,6 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return license ? `## License\n${renderLicenseBadge(license)}\n${renderLicenseLink(license)}\n` : '';
-
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
