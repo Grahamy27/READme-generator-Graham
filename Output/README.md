@@ -1,4 +1,4 @@
-# README Generator
+# gg
 [License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents
 * [Description](#description)
@@ -7,19 +7,19 @@
 * [Credits](#credits)
 * [License](#license)
 ## Description
-To help users produce a more refined README after answering questions
+gd
 
-I built this project to help users create a good readme file.
+ge
 
-This project solves time by building an immediate readme
+ge
 
-I learnt how to link licence and how to use gitignore
+ge
 ## Installation
-need to login and use node index.js
-## Usage
-ok
+Installation instructions not provided
+## Usage Information
+Usage information not provided
 ## Credits
-github.com/grahamy27
+https://github.com/Grahamy27
 ## License
 [License](https://img.shields.io/badge/License-MIT-yellow.svg)
 [License](https://opensource.org/licenses/MIT)
