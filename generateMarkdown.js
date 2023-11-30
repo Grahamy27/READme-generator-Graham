@@ -1,12 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 const generateMarkdownFunction = ({ title, motivation, buildReason, problemSolved, learnt, installation, usage, credits, license }) => {
-  const sections = ['Description', 'Installation', 'Usage', 'Credits', 'License'];
+  const sections = ['Description', 'Installation', 'Usage Information', 'Credits', 'License'];
   const tableOfContents = sections.map(section => `* [${section}](#${section.toLowerCase()})`).join('\n');
   const aggregatedDescription = `${motivation}\n\n${buildReason}\n\n${problemSolved}\n\n${learnt}`;
   const licenseBadge = renderLicenseBadge(license);
-  // const licenseSection = renderLicenseSection(license);
-  // console.log('Generated License Badge:', licenseBadge);
-  // console.log('Generated License Link:', renderLicenseLink(license));
+  const licenseSection = renderLicenseSection(license);
+  console.log('Generated License Badge:', licenseBadge);
+  console.log('Generated License Link:', renderLicenseLink(license));
   return `# ${title}
 ${licenseBadge}
 ## Table of Contents
@@ -15,8 +15,8 @@ ${tableOfContents}
 ${aggregatedDescription}
 ## Installation
 ${installation || 'Installation instructions not provided'}
-## Usage
-${usage || 'Usage information not provided'}
+## Usage Information
+${usageInformation || 'Usage information not provided'}
 ## Credits
 ${credits || 'Credits not provided'}
 ${renderLicenseSection(license)}`;
