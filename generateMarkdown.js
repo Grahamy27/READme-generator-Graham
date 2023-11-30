@@ -5,8 +5,8 @@ const generateMarkdownFunction = ({ title, motivation, buildReason, problemSolve
   const aggregatedDescription = `${motivation}\n\n${buildReason}\n\n${problemSolved}\n\n${learnt}`;
   const licenseBadge = renderLicenseBadge(license);
   const licenseSection = renderLicenseSection(license);
-  console.log('Generated License Badge:', licenseBadge);
-  console.log('Generated License Link:', renderLicenseLink(license));
+  // console.log('Generated License Badge:', licenseBadge);
+  // console.log('Generated License Link:', renderLicenseLink(license));
   return `# ${title}
 ${licenseBadge}
 ## Table of Contents

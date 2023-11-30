@@ -1,4 +1,4 @@
-# gg
+# READme Generator
 [License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents
 * [Description](#description)
@@ -7,19 +7,19 @@
 * [Credits](#credits)
 * [License](#license)
 ## Description
-gd
+I wanted an easy Readme Generator
 
-ge
+I built this project so as to be able to build a professional readme
 
-ge
+It cuts down time as I can build a readme by answering a set of questions
 
-ge
+I learnt how to link licenses and badges, also got a better understanding of node
 ## Installation
-Installation instructions not provided
+you will need to install npm i, you will then need to run node index.js in your CLI to answer a set of questions
 ## Usage Information
-Usage information not provided
+will be provided in screenshots
 ## Credits
-https://github.com/Grahamy27
+github.com/grahamy27
 ## License
 [License](https://img.shields.io/badge/License-MIT-yellow.svg)
 [License](https://opensource.org/licenses/MIT)

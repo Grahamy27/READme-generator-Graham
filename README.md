@@ -32,5 +32,11 @@ THEN I am taken to the corresponding section of the README
 
 Github: https://github.com/grahamy27
 
+## License
+
+https://img.shields.io/badge/License-MIT-yellow.svg
+
 ## Screenshots
+
+<iframe src="https://drive.google.com/file/d/19bdHH97_Jvh2dGP_8pgrrpSWT7YUa9eZ/preview" width="640" height="480"></iframe>
 
